@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.darkhorse.dhnews.ui.activity.TabActivity">
+
+    <FrameLayout
+        android:id="@+id/mFrameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/ll_tabs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tabs_height"
+        android:background="@color/colorHeaderFill"
+        android:orientation="horizontal"
+        android:paddingTop="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/ll_tab_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/tab_button"
+            android:orientation="vertical">
+
+            <com.example.darkhorse.dhnews.ui.widgets.IconFontTextView
+                android:id="@+id/ic_tab_01"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_icon_height"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:text="@string/tab_icon_01"
+                android:textColor="@drawable/selector_tab_color"
+                android:textSize="@dimen/tab_icon_size" />
+
+            <TextView
+                android:id="@+id/tv_tab_01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:text="@string/tab_title_01"
+                android:textColor="@drawable/selector_tab_color"
+                android:textSize="@dimen/tab_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tab_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/tab_button"
+            android:orientation="vertical">
+
+            <com.example.darkhorse.dhnews.ui.widgets.IconFontTextView
+                android:id="@+id/ic_tab_02"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_icon_height"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:text="@string/tab_icon_02"
+                android:textColor="@drawable/selector_tab_color"
+                android:textSize="@dimen/tab_icon_size" />
+
+            <TextView
+                android:id="@+id/tv_tab_02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:text="@string/tab_title_02"
+                android:textColor="@drawable/selector_tab_color"
+                android:textSize="@dimen/tab_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_tab_03"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/tab_button"
+            android:orientation="vertical">
+
+            <com.example.darkhorse.dhnews.ui.widgets.IconFontTextView
+                android:id="@+id/ic_tab_03"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_icon_height"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:text="@string/tab_icon_03"
+                android:textColor="@drawable/selector_tab_color"
+                android:textSize="@dimen/tab_icon_size" />
+
+            <TextView
+                android:id="@+id/tv_tab_03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:text="@string/tab_title_03"
+                android:textColor="@drawable/selector_tab_color"
+                android:textSize="@dimen/tab_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_tab_04"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/tab_button"
+            android:orientation="vertical">
+
+            <com.example.darkhorse.dhnews.ui.widgets.IconFontTextView
+                android:id="@+id/ic_tab_04"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_icon_height"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:text="@string/tab_icon_04"
+                android:textColor="@drawable/selector_tab_color"
+                android:textSize="@dimen/tab_icon_size" />
+
+            <TextView
+                android:id="@+id/tv_tab_04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:text="@string/tab_title_04"
+                android:textColor="@drawable/selector_tab_color"
+                android:textSize="@dimen/tab_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

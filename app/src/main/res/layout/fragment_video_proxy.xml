@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_height"
+        android:background="#433F50"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.darkhorse.dhnews.ui.widgets.ViewPagerIndicator
+        android:id="@+id/indicator_video"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#3C3849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_search"
+        app:pointer_color="#FB4492"
+        app:pointer_type="3"
+        app:title_color_normal="#ffffff"
+        app:title_color_selected="#ffffff"
+        app:visible_tab_count="6" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_video"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/indicator_video" />
+</android.support.constraint.ConstraintLayout>

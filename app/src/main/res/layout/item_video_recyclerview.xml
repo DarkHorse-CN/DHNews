@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_video"
+    android:layout_width="match_parent"
+    android:padding="1dp"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/shape_video_detail_bg"
+        android:padding="3dp">
+
+        <com.example.darkhorse.dhnews.ui.widgets.CircleImageView
+            android:id="@+id/iv_author"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            app:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_author"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/iv_author"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/h8" />
+
+        <TextView
+            android:id="@+id/tv_praise"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/h8" />
+
+        <com.example.darkhorse.dhnews.ui.widgets.IconFontTextView
+            android:id="@+id/iconFontTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@id/tv_praise"
+            android:gravity="center"
+            android:text="@string/icon_praise"
+            android:textColor="#cccccc"
+            android:textSize="@dimen/h7" />
+
+    </RelativeLayout>
+
+</FrameLayout>

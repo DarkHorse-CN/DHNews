@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+
+    <objectAnimator
+        android:duration="400"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:propertyName="pathData"
+        android:valueFrom="
+            M20,115
+            H180
+            M20,145
+            H180
+            M20,175
+            H180"
+        android:valueTo="
+            M85,20
+            H20
+            M85,55
+            H20
+            M85,90
+            H20"
+        android:valueType="pathType" />
+
+    <objectAnimator
+        android:duration="400"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:propertyName="pathData"
+        android:valueFrom="
+            M20,20
+            H85
+            M20,55
+            H85
+            M20,90
+            H85"
+        android:valueTo="
+            M20,20
+            H180
+            M20,55
+            H180
+            M20,90
+            H180"
+        android:valueType="pathType" />
+
+    <objectAnimator
+        android:duration="400"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:propertyName="pathData"
+        android:valueFrom="
+            M20,20
+            H180
+            M20,55
+            H180
+            M20,90
+            H180"
+        android:valueTo="
+            M180,115
+            H115
+            M180,145
+            H115
+            M180,175
+            H115"
+        android:valueType="pathType" />
+
+    <objectAnimator
+        android:duration="400"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:propertyName="pathData"
+        android:valueFrom="
+            M180,115
+            H115
+            M180,145
+            H115
+            M180,175
+            H115"
+        android:valueTo="
+            M180,115
+            H20
+            M180,145
+            H20
+            M180,175
+            H20"
+        android:valueType="pathType" />
+
+</set>

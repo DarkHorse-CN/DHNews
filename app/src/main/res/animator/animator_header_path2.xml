@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+
+    <objectAnimator
+        android:duration="400"
+        android:propertyName="pathData"
+        android:valueFrom="
+            M115,20
+            H180
+            M115,55
+            H180
+            M115,90
+            H180"
+        android:valueTo="
+            M20,115
+            H180
+            M20,145
+            H180
+            M20,175
+            H180"
+        android:valueType="pathType" />
+
+    <objectAnimator
+        android:duration="400"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:propertyName="pathData"
+        android:valueFrom="
+           M180,115
+            H20
+            M180,145
+            H20
+            M180,175
+            H20"
+        android:valueTo="
+            M85,115
+            H20
+            M85,145
+            H20
+            M85,175
+            H20"
+        android:valueType="pathType" />
+
+    <objectAnimator
+        android:duration="400"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:propertyName="pathData"
+        android:valueFrom="
+            M85,115
+            H20
+            M85,145
+            H20
+            M85,175
+            H20"
+        android:valueTo="
+            M180,20
+            H20
+            M180,55
+            H20
+            M180,90
+            H20"
+        android:valueType="pathType" />
+
+    <objectAnimator
+        android:duration="400"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:propertyName="pathData"
+        android:valueFrom="
+            M180,20
+            H20
+            M180,55
+            H20
+            M180,90
+            H20"
+        android:valueTo="
+            M180,20
+            H115
+            M180,55
+            H115
+            M180,90
+            H115"
+        android:valueType="pathType" />
+
+</set>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#3C3849">
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:gravity="bottom"
+        android:text="下拉刷新"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/h7" />
+
+    <com.example.darkhorse.dhnews.ui.widgets.IconFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_header"
+        android:layout_toStartOf="@+id/tv_header"
+        android:gravity="center"
+        android:text="@string/icon_arrow"
+        android:textSize="@dimen/h5"
+        android:textColor="#ffffff" />
+</RelativeLayout>

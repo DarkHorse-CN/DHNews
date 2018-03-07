@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">DHNews</string>
+
+    <string-array name="array_tab_title">
+        <item>头条</item>
+        <item>社会</item>
+        <item>国内</item>
+        <item>国际</item>
+        <item>娱乐</item>
+        <item>体育</item>
+        <item>军事</item>
+        <item>科技</item>
+        <item>财经</item>
+        <item>时尚</item>
+    </string-array>
+
+    <string-array name="array_news_type">
+        <item>top</item>
+        <item>shehui</item>
+        <item>guonei</item>
+        <item>guoji</item>
+        <item>yule</item>
+        <item>tiyu</item>
+        <item>junshi</item>
+        <item>keji</item>
+        <item>caijing</item>
+        <item>shishang</item>
+    </string-array>
+
+    <string name="tab_icon_01">&#xe603;</string>
+    <string name="tab_icon_02">&#xe65f;</string>
+    <string name="tab_icon_03">&#xe691;</string>
+    <string name="tab_icon_04">&#xe628;</string>
+    <string name="icon_praise">&#xe6a0;</string>
+    <string name="icon_arrow">&#xe629;</string>
+
+    <string name="tab_title_01">新闻</string>
+    <string name="tab_title_02">视频</string>
+    <string name="tab_title_03">关注</string>
+    <string name="tab_title_04">我的</string>
+</resources>

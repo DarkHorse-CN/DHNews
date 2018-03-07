@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="h1">36sp</dimen>
+    <dimen name="h2">32sp</dimen>
+    <dimen name="h3">28sp</dimen>
+    <dimen name="h4">24sp</dimen>
+    <dimen name="h5">20sp</dimen>
+    <dimen name="h6">16sp</dimen>
+    <dimen name="h7">14sp</dimen>
+    <dimen name="h8">12sp</dimen>
+
+
+    <dimen name="tabs_height">45dp</dimen>
+    <dimen name="tab_icon_height">30dp</dimen>
+    <dimen name="tab_icon_size">23sp</dimen>
+    <dimen name="tab_text_size">10sp</dimen>
+
+    <dimen name="indicator_height">30dp</dimen>
+    <dimen name="search_height">30dp</dimen>
+</resources>
